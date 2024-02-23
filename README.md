@@ -11,7 +11,7 @@ jekyll 主题 fork 自 [GitHub 地址](https://github.com/TMaize/tmaize-blog)。
 
 ## 感谢
 
-[JetBrains](https://www.jetbrains.com/?from=tmaize-blog) <font color="red">给上游</font>免费提供的开发工具[![JetBrains](./static/img/jetbrains.svg)](https://www.jetbrains.com/?from=tmaize-blog)
+[JetBrains](https://www.jetbrains.com/?from=tmaize-blog) **<font color="red">给上游</font>**免费提供的开发工具[![JetBrains](./static/img/jetbrains.svg)](https://www.jetbrains.com/?from=tmaize-blog)，我选择 vs code。
 
 [夜间模式代码高亮配色](https://github.com/mgyongyosi/OneDarkJekyll)
 
@@ -31,7 +31,7 @@ jekyll 主题 fork 自 [GitHub 地址](https://github.com/TMaize/tmaize-blog)。
 
 7. 如果你是把项目 fork 过去的，想要删除我的提交记录可以使用下面的命令
 
-   ```
+   ```bash
    git checkout --orphan temp
    git add . && git commit -m init
    git branch -D master
@@ -54,15 +54,27 @@ categories: [分类1, 分类2]
 
 文章资源放在`posts`目录，如文章文件名是`2019-05-01-theme-usage.md`，则该篇文章的资源需要放在`posts/2019/05/01`下，在文章使用时直接引用即可。当然了，写作的时候会提示资源不存在忽略即可
 
-```md
+```markdown
 ![这是图片](xxx.png)
 
 [xxx.zip 下载](xxx.zip)
 ```
 
+## 分支说明
+
+项目**自 v0.1.0 后（尚未更新至该版本）**使用多分枝运行：
+
+| 分支名称 | 用处                         |
+| -------- | ---------------------------- |
+| develop  | 开发页面配置                 |
+| release  | 稳定的页面配置，没有博客内容 |
+| blog     | 写博客的分支                 |
+
 ## TODO
 
+- 了解和学习 [YAML Front Matter](https://docs.github.com/zh/contributing/writing-for-github-docs/using-yaml-frontmatter)
 - 修改 _includes/script.html 
 - 更新 pages/about.md
 - 更新友情链接和留言
 - 搞明白搜索
+- 搞明白 RSS 订阅
