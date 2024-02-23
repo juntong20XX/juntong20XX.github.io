@@ -246,7 +246,13 @@ input:-webkit-autofill {
   }
 }
 
-/* 添加更多分辨率支持 */
+/* Add more resolution configurations. */
+@media only screen and (min-width: 1080px) {
+  .body {
+    max-width: 860px;
+  }
+}
+
 @media only screen and (min-width: 1400px) {
   .body {
     max-width: 1024px;
