@@ -17,7 +17,6 @@ html[transition] {
 }
 
 body {
-  max-width: 680px;
   padding: 0 14px;
   margin: 0 auto;
 }
@@ -230,6 +229,9 @@ input:-webkit-autofill {
 }
 
 @media screen and (max-width: 560px) {
+  .body {
+    max-width: 680px;
+  }
   .header {
     padding: 35px 0 20px 0;
     justify-content: flex-start;
@@ -247,13 +249,20 @@ input:-webkit-autofill {
 }
 
 /* Add more resolution configurations. */
-@media only screen and (min-width: 1080px) {
+@media only screen and (min-width: 561px) and (max-width: 1080px) {
   .body {
     max-width: 860px;
   }
 }
 
-@media only screen and (min-width: 1400px) {
+
+@media only screen and (min-width: 1080px) and (max-width: 1399px) {
+  .body {
+    max-width: 860px;
+  }
+}
+
+@media only screen and (min-width: 1400px) and (max-width: 1799px){
   .body {
     max-width: 1024px;
   }
