@@ -5,7 +5,7 @@ categories: [Jekyll]
 extMath: true
 
 typora-root-url: D:/Projects/MyWeb/juntong20XX.github.io
-typora-copy-images-to:/posts/2024/02/23
+typora-copy-images-to: /posts/2024/02/23
 ---
 
 # Hello Jekyll!
