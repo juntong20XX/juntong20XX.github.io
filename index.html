@@ -16,11 +16,11 @@ title: Home Page
           <span class="date">{{ post.date | date: "%Y/%m/%d" }}</span>
           <div class="title">
             <a href="{{ site.baseurl | append: post.url }}" class="hover-underline">{{ post.title }}</a>
+            <a href="{{ site.baseurl | append: post.url }}" class="hover-underline" target="_blank">_↗</a>
           </div>
           <div class="categories">
             {% for categorie in post.categories -%}
             <a href="{{site.baseurl}}/pages/categories.html#{{ categorie }}" class="hover-underline">{{ categorie }}</a>
-            <a href="{{site.baseurl}}/pages/categories.html#{{ categorie }}" class="hover-underline" target="_blank">_↗</a>
             {%- endfor %}
           </div>
         </li>
