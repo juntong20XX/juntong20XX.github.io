@@ -20,22 +20,21 @@ body {
 
   /* Add more resolution configurations. */
   @media only screen and (max-width: 1439px) {
-    .body {
-      max-width: 680px;
-    }
+
+    max-width: 680px;
+
   }
 
 
-  @media only screen and (min-width: 1440px) and (max-width: 1919px) {
-    .body {
-      max-width: 860px;
-    }
+  @media only screen and (min-width: 1440px) and (max-width: 2047px) {
+
+    max-width: 860px;
+
   }
 
   @media only screen and (min-width: 2048px) and (max-width: 2559px) {
-    .body {
-      max-width: 1024px;
-    }
+
+    max-width: 1024px;
   }
 
   @media only screen and (min-width: 2560px) {
