@@ -3,15 +3,12 @@
 [![Language](https://img.shields.io/badge/Jekyll-Theme-blue)](https://github.com/juntong20XX/juntong20XX.github.io)
 ![license](https://img.shields.io/github/license/TMaize/tmaize-blog)
 
-jekyll 主题 fork 自 [GitHub 地址](https://github.com/TMaize/tmaize-blog)。为了简介好看我删掉了原先大部分 ReadMe。文档查阅请看上游。
-
-简洁纯净(主题资源请求<20KB)，未引入任何框架，秒开页面，支持自适应，支持全文检索，支持夜间模式。
-
-你可以到[TMaize Blog](https://blog.tmaize.net/)查看主题效果 ，欢迎添加友链。
+该 jekyll 主题 fork 自 [TMaize Blog](https://github.com/TMaize/tmaize-blog)。为了简介好看我删掉了原先大部分 ReadMe。文档查阅请看上游。
 
 ## 感谢
 
 [JetBrains](https://www.jetbrains.com/?from=tmaize-blog) <font color="red">给上游</font>免费提供的开发工具[![JetBrains](./static/img/jetbrains.svg)](https://www.jetbrains.com/?from=tmaize-blog)
+<font color="gray">我使用 vs code（以及教育版的 WebStorm）.</font>
 
 [夜间模式代码高亮配色](https://github.com/mgyongyosi/OneDarkJekyll)
 
@@ -54,7 +51,7 @@ categories: [分类1, 分类2]
 
 文章资源放在`posts`目录，如文章文件名是`2019-05-01-theme-usage.md`，则该篇文章的资源需要放在`posts/2019/05/01`下，在文章使用时直接引用即可。当然了，写作的时候会提示资源不存在忽略即可
 
-```md
+```markdown
 ![这是图片](xxx.png)
 
 [xxx.zip 下载](xxx.zip)
@@ -62,7 +59,6 @@ categories: [分类1, 分类2]
 
 ## TODO
 
-- 修改 _includes/script.html 
 - 更新 pages/about.md
 - 更新友情链接和留言
 - 搞明白搜索
@@ -71,3 +67,5 @@ categories: [分类1, 分类2]
 ## 修改
 
 - 在标题添加了 "新窗口打开" 的选项
+- 在默认选项中禁用了鼠标点击事件
+- 添加了更多分辨率页面宽度设置

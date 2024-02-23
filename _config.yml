@@ -53,6 +53,9 @@ extMath: false
 # 显示访问量统计，由不蒜子提供服务
 extCount: false
 
+# 新标签页打开博文功能显示字符，留空则不显示
+newPageText: '↗'
+
 # 友情链接
 links:
   - title: Example Domain
