@@ -17,6 +17,31 @@ html[transition] {
 }
 
 body {
+
+  /* Add more resolution configurations. */
+  @media only screen and (max-width: 1439px) {
+    .body {
+      max-width: 680px;
+    }
+  }
+
+
+  @media only screen and (min-width: 1440px) and (max-width: 1919px) {
+    .body {
+      max-width: 860px;
+    }
+  }
+
+  @media only screen and (min-width: 2048px) and (max-width: 2559px) {
+    .body {
+      max-width: 1024px;
+    }
+  }
+
+  @media only screen and (min-width: 2560px) {
+    max-width: 1200px;
+  }
+
   padding: 0 14px;
   margin: 0 auto;
 }
@@ -232,6 +257,7 @@ input:-webkit-autofill {
   .body {
     max-width: 680px;
   }
+
   .header {
     padding: 35px 0 20px 0;
     justify-content: flex-start;
@@ -245,31 +271,5 @@ input:-webkit-autofill {
   .header .menu a {
     margin: 2px 5px;
     font-size: 15px;
-  }
-}
-
-/* Add more resolution configurations. */
-@media only screen and (min-width: 561px) and (max-width: 1080px) {
-  .body {
-    max-width: 860px;
-  }
-}
-
-
-@media only screen and (min-width: 1080px) and (max-width: 1399px) {
-  .body {
-    max-width: 860px;
-  }
-}
-
-@media only screen and (min-width: 1400px) and (max-width: 1799px){
-  .body {
-    max-width: 1024px;
-  }
-}
-
-@media only screen and (min-width: 1800px) {
-  .body {
-    max-width: 1200px;
   }
 }
