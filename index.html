@@ -20,6 +20,7 @@ title: Home Page
           <div class="categories">
             {% for categorie in post.categories -%}
             <a href="{{site.baseurl}}/pages/categories.html#{{ categorie }}" class="hover-underline">{{ categorie }}</a>
+            <a href="{{site.baseurl}}/pages/categories.html#{{ categorie }}" class="hover-underline" target="_blank">_↗</a>
             {%- endfor %}
           </div>
         </li>
