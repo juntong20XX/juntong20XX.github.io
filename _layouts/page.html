@@ -4,6 +4,25 @@
 <body>
 {% include header.html -%}
 {{ content }}
+<script>
+    // Get all <p> tags
+    const paragraphs = document.querySelectorAll('p');
+
+    // Iterate over each <p> tag
+    paragraphs.forEach((paragraph) => {
+        // Check if the content is in English or contains English characters
+        if (isEnglishContent(paragraph.textContent)) {
+            // Add the CSS property
+            paragraph.style.wordBreak = 'break-word';
+        }
+    });
+
+    // Function to check if the content is in English or contains English characters
+    function isEnglishContent(content) {
+        // Replace the following line with your own implementation.
+        return /^[a-zA-Z\W]+$/.test(content);
+    }
+</script>
 {% include footer.html -%}
 {% include script.html -%}
 </body>

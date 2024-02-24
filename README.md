@@ -69,3 +69,5 @@ categories: [分类1, 分类2]
 - 在标题添加了 "新窗口打开" 的选项
 - 在默认选项中禁用了鼠标点击事件
 - 添加了更多分辨率页面宽度设置
+- 对 pages 类型添加了 "lang" 选项（缺省为 "zh-CN"）以设置 html 的 lang 参数
+- pages 类型中的英语段落，将自行添加 " word-break: break-word;" 样式
