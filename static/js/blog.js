@@ -1,5 +1,5 @@
 // 打印主题标识,请保留出处
-;(function () {
+; (function () {
   var style1 = 'background:#4BB596;color:#ffffff;border-radius: 2px;'
   var style2 = 'color:auto;'
   var author = ' TMaize, juntong20XX'
@@ -254,6 +254,19 @@ blog.addLoadEvent(function () {
     elem.setAttribute('class', 'table-container')
     table.parentNode.insertBefore(elem, table)
     elem.appendChild(table)
+  }
+  // 对全英文内容 <p> 添加 break-word
+  document.querySelectorAll('p').forEach((paragraph) => {
+    // Check if the content is in English or contains English characters
+    if (isEnglishContent(paragraph.textContent)) {
+      // Add the CSS property
+      paragraph.style.wordBreak = 'break-word';
+    }
+  });
+  // Function to check if the content is in English or contains English characters
+  function isEnglishContent(content) {
+    // Replace the following line with your own implementation.
+    return /^[a-zA-Z \p{P}]+$/gu.test(content);
   }
 })
 

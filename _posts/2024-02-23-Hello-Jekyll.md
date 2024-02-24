@@ -3,6 +3,7 @@ layout: mypost
 title: "Hello Jekyll!"
 categories: [Jekyll,TEST]
 extMath: true
+lang: en-us
 
 typora-root-url: D:/Projects/MyWeb/juntong20XX.github.io
 typora-copy-images-to: /posts/2024/02/23
