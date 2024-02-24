@@ -1,10 +1,18 @@
 encoding: utf-8
+timezone: Asia/Shanghai
+defaults:
+  -
+    scope:
+      path: "" # 一个空的字符串代表项目中所有的文件
+      type: "pages"  # 表示为文章添加此标记
+    values:
+      lang: zh-CN  # 新增标记，是 html 标签的 lang 选项的值
 
 # SEO相关信息
 title: Juntong20XX Pages
 description: GitHub@Juntong20XX Pages I don't know what to do.
 keywords: GitHub,Blog,Python
-author: TMaize,Juntong20XX
+author: Juntong20XX
 footerText: ''
 
 # 这些不要动
