@@ -3,7 +3,7 @@
 [![Language](https://img.shields.io/badge/Jekyll-Theme-blue)](https://github.com/juntong20XX/juntong20XX.github.io)
 ![license](https://img.shields.io/github/license/TMaize/tmaize-blog)
 
-该 jekyll 主题 fork 自 [TMaize Blog](https://github.com/TMaize/tmaize-blog)。为了简介好看我删掉了原先大部分 ReadMe。文档查阅请看上游。
+该 jekyll 主题 fork 自 [TMaize Blog](https://github.com/TMaize/tmaize-blog)。为了简介好看我删掉了原先大部分 ReadMe。更多文档查阅请看上游。
 
 ## 感谢
 
@@ -26,14 +26,10 @@
 
 6. 网站的 logo 和 favicon 放在了`static/img/`下，替换即可，大小无所谓，图片比例最好是 1:1
 
-7. 如果你是把项目 fork 过去的，想要删除我的提交记录可以使用下面的命令
+7. 如果你是把项目 fork 过去的，想要删除我的提交记录可以使用下面的命令：
 
-   ```
-   git checkout --orphan temp
-   git add . && git commit -m init
-   git branch -D master
-   git branch -m temp master
-   git push --force
+   ```bash
+   git switch release
    ```
 
 # 使用
@@ -57,6 +53,16 @@ categories: [分类1, 分类2]
 [xxx.zip 下载](xxx.zip)
 ```
 
+## 分支说明
+
+项目从 0.1.0 开始，分为如下分支：
+
+`develop`：开发模板使用的分支。
+
+`release`：模板发行分支，不包含笔记。
+
+`web`：GitHub Pages 使用的分支。
+
 ## TODO
 
 - 更新 pages/about.md
@@ -71,4 +77,5 @@ categories: [分类1, 分类2]
 - 添加了更多分辨率页面宽度设置
 - 对 pages 类型添加了 "lang" 选项（缺省为 "zh-CN"）以设置 html 的 lang 参数
 - pages 类型中的英语段落，将自行添加 " word-break: break-word;" 样式
-- 添加了 "网站未完工" 提示
+- 在主页添加了 "网站未完工" 提示
+
