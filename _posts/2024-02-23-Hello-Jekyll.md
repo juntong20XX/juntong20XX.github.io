@@ -5,8 +5,8 @@ categories: [Jekyll,TEST]
 extMath: true
 lang: en-us
 
-typora-root-url: D:/Projects/MyWeb/juntong20XX.github.io
-typora-copy-images-to: /posts/2024/02/23
+typora-root-url: D:/Projects/MyWeb/juntong20XX.github.io/_posts
+typora-copy-images-to: ../posts/2024/02/23
 ---
 
 # Hello Jekyll!
@@ -20,3 +20,8 @@ link: [Lorem ipsum - Wikipedia](https://en.wikipedia.org/wiki/Lorem_ipsum)
 　　而这些并不是完全重要，更加重要的问题是，  带着这些问题，我们来审视一下元宵节快乐。 每个人都不得不面对这些问题。 在面对这种问题时， 每个人都不得不面对这些问题。 在面对这种问题时，  总结的来说， 带着这些问题，我们来审视一下元宵节快乐。 现在，解决元宵节快乐的问题，是非常非常重要的。 所以，  元宵节快乐，发生了会如何，不发生又会如何。 可是，即使是这样，元宵节快乐的出现仍然代表了一定的意义。 既然如此，  现在，解决元宵节快乐的问题，是非常非常重要的。 所以， 经过上述讨论， 那么， 我们不得不面对一个非常尴尬的事实，那就是，  了解清楚元宵节快乐到底是一种怎么样的存在，是解决一切问题的关键。 要想清楚，元宵节快乐，到底是一种怎么样的存在。 
 
 link: [元宵节快乐 - 文章生成器](https://suulnnka.github.io/BullshitGenerator/index.html?%E4%B8%BB%E9%A2%98=%E5%85%83%E5%AE%B5%E8%8A%82%E5%BF%AB%E4%B9%90&%E9%9A%8F%E6%9C%BA%E7%A7%8D%E5%AD%90=2669795918)
+
+<!-- ![2024 元宵节 bing](/../posts/2024/02/23/2024 元宵节 bing.webp) -->
+![2024 元宵节 bing](2024 元宵节 bing.webp)
+
+图片：必应图片 2024/02/24
