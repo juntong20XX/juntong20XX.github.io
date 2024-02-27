@@ -41,10 +41,10 @@ menu:
     url: /pages/categories.html
   - title: 搜索
     url: /pages/search.html
-  - title: 友链
-    url: /pages/links.html
-  - title: 留言
-    url: /pages/chat.html
+  # - title: 友链
+  #   url: /pages/links.html
+  # - title: 留言
+  #   url: /pages/chat.html
   - title: 关于
     url: /pages/about.html
 
@@ -65,7 +65,7 @@ extCount: false
 newPageText: '↗'
 
 # 主页网站未完成提示
-unfinished: true
+unfinished: false
 
 # 友情链接
 links:

@@ -65,7 +65,6 @@ categories: [分类1, 分类2]
 
 ## TODO
 
-- 更新 pages/about.md
 - 更新友情链接和留言
 - 搞明白搜索
 - （做梦）添加 i18n 支持
