@@ -2,31 +2,53 @@
 layout: page
 title: Home Page
 ---
+
+{%- if site.unfinished -%}
+<!-- 弹窗容器 -->
+<div id="construction-popup" style="display:none;">
+  <div id="popup-content">
+    <h2>网站正在施工</h2>
+    <p>我们的网站正在建设中，敬请期待！</p>
+    <!-- <img src="construction-image.jpg" alt="construction-image" /> -->
+    <button onclick="closePopup()" style="border: cyan; background-color: inherit; color: inherit;">Close</button>
+  </div>
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      document.getElementById('construction-popup').style.display = 'flex';
+    });
+
+    function closePopup() {
+      document.getElementById('construction-popup').style.display = 'none';
+    }
+  </script>
+</div>
+{%- endif -%}
 <div class="page page-index">
-  {% for post in site.posts  -%}
-    {%- capture post_year %}{{ post.date | date: "%Y" }}{% endcapture -%}
-    {%- capture post_previous_year %}{{ post.previous.date | date: "%Y" }}{% endcapture -%}
-    {%- capture post_next_year %}{{ post.next.date | date: "%Y" }}{% endcapture -%}
-    {%- if forloop.first or post_next_year != post_year -%}
-    <div class="list-post">
-      <h2 id="{{post_year}}">{{post_year}}</h2>
-      <ul>
-    {%- endif %}
-        <li>
-          <span class="date">{{ post.date | date: "%Y/%m/%d" }}</span>
-          <div class="title">
-            <a href="{{ site.baseurl | append: post.url }}" class="hover-underline">{{ post.title }}</a>
-            <a href="{{ site.baseurl | append: post.url }}" class="hover-underline" target="_blank">{{ site.newPageText }}</a>
-          </div>
-          <div class="categories">
-            {% for categorie in post.categories -%}
-            <a href="{{site.baseurl}}/pages/categories.html#{{ categorie }}" class="hover-underline">{{ categorie }}</a>
-            {%- endfor %}
-          </div>
-        </li>
-    {%- if forloop.last or post_previous_year != post_year %}
-      </ul>
-    </div>
-    {%- endif %}
+  {% for post in site.posts -%}
+  {%- capture post_year %}{{ post.date | date: "%Y" }}{% endcapture -%}
+  {%- capture post_previous_year %}{{ post.previous.date | date: "%Y" }}{% endcapture -%}
+  {%- capture post_next_year %}{{ post.next.date | date: "%Y" }}{% endcapture -%}
+  {%- if forloop.first or post_next_year != post_year -%}
+  <div class="list-post">
+    <h2 id="{{post_year}}">{{post_year}}</h2>
+    <ul>
+      {%- endif %}
+      <li>
+        <span class="date">{{ post.date | date: "%Y/%m/%d" }}</span>
+        <div class="title">
+          <a href="{{ site.baseurl | append: post.url }}" class="hover-underline">{{ post.title }}</a>
+          <a href="{{ site.baseurl | append: post.url }}" class="hover-underline" target="_blank">{{ site.newPageText
+            }}</a>
+        </div>
+        <div class="categories">
+          {% for categorie in post.categories -%}
+          <a href="{{site.baseurl}}/pages/categories.html#{{ categorie }}" class="hover-underline">{{ categorie }}</a>
+          {%- endfor %}
+        </div>
+      </li>
+      {%- if forloop.last or post_previous_year != post_year %}
+    </ul>
+  </div>
+  {%- endif %}
   {%- endfor %}
 </div>
