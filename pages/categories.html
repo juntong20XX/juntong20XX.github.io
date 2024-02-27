@@ -3,6 +3,18 @@ layout: page
 title: 文章分类
 ---
 
+{%- if site.unfinished -%}
+<!-- 弹窗容器 -->
+<div id="construction-popup" style="display:none;">
+  <div id="popup-content">
+      <h2>网站正在施工</h2>
+      <p>我们的网站正在建设中，敬请期待！</p>
+      <!-- <img src="construction-image.jpg" alt="construction-image" /> -->
+      <button onclick="closePopup()">Close</button>
+  </div>
+</div>
+{%- endif -%}
+
 <div class="page page-categories">
   <div class="list-category">
     <h2>所有分类</h2>
