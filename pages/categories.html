@@ -3,7 +3,7 @@ layout: page
 title: 文章分类
 ---
 
-{%- if site.unfinished -%}
+{%- if site.unfinished %}
 <!-- 弹窗容器 -->
 <div id="construction-popup" style="display:none;">
   <div id="popup-content">
@@ -12,8 +12,17 @@ title: 文章分类
       <!-- <img src="construction-image.jpg" alt="construction-image" /> -->
       <button onclick="closePopup()">Close</button>
   </div>
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+        document.getElementById('construction-popup').style.display = 'flex';
+    });
+
+    function closePopup() {
+        document.getElementById('construction-popup').style.display = 'none';
+    }
+</script>
 </div>
-{%- endif -%}
+{% endif %}
 
 <div class="page page-categories">
   <div class="list-category">

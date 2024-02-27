@@ -484,12 +484,3 @@ blog.addLoadEvent(function () {
     })
   }
 })
-
-// 弹窗
-window.onload = function() {
-  document.getElementById('construction-popup').style.display = 'flex';
-};
-
-function closePopup() {
-  document.getElementById('construction-popup').style.display = 'none';
-}
