@@ -5,6 +5,8 @@
 
 该 jekyll 主题 fork 自 [TMaize Blog](https://github.com/TMaize/tmaize-blog)。为了简介好看我删掉了原先大部分 ReadMe。更多文档查阅请看上游。
 
+![截图 2024-02-28 16.15.13](markdown images/1280x640 screenshot.png)![image-20240228161734417](markdown images/small screen screenshot.png)
+
 ## 感谢
 
 [JetBrains](https://www.jetbrains.com/?from=tmaize-blog) <font color="red">给上游</font>免费提供的开发工具[![JetBrains](./static/img/jetbrains.svg)](https://www.jetbrains.com/?from=tmaize-blog)
