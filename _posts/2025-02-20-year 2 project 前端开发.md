@@ -24,7 +24,7 @@ lang: en-us
 └─vite.config.js
 ```
 
-将每一个功能作为独立页面，使用 Vue Component <一些优势>
+将每一个功能作为独立页面，每个页面是一个 Vue Component 文件。
 
 从功能上，分成两部分：控制界面和登录界面。
 
