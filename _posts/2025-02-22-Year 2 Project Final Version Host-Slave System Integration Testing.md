@@ -45,6 +45,9 @@ This article documents the integration testing between the new versions of host 
 ## Test Implementation Process
 
 ### System Architecture Diagram
+
+![stateDiagram](stateDiagram.svg)
+
 ```mermaid
 stateDiagram-v2
     PythonCLI --> Server
