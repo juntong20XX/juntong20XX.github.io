@@ -7,6 +7,8 @@ lang: en-us
 
 ![FastAPI Logo](https://fastapi.tiangolo.com/img/logo-margin/logo-teal.png)
 
+Link to [English Version](https://juntong20xx.github.io/posts/2025/02/20/Year-2-Project-Backend-Development.html).
+
 在[前端开发](https://juntong20xx.github.io/posts/2025/02/20/year-2-project-%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91.html)中，已经完成了对后端 API 的设计。
 
 根据先前的设计，API 功能分为对设备列表管理和登录管理。

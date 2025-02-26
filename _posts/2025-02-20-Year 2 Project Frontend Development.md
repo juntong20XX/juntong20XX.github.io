@@ -9,6 +9,8 @@ Link to [Chinese Version](https://juntong20xx.github.io/posts/2025/02/20/year-2-
 
 The project adopts a frontend-backend separation design. The frontend uses Vue framework with Node.js as the development environment.
 
+![](https://miro.medium.com/v2/0*MAYv38yGNqZa4K1R.)
+
 ## Project Structure
 
 ```

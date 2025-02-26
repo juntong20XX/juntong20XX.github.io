@@ -8,6 +8,10 @@ lang: en-us
 
 Link to [English Version](https://juntong20xx.github.io/posts/2025/02/22/Year-2-Project-Final-Frontend-Development.html).
 
+![](https://miro.medium.com/v2/0*MAYv38yGNqZa4K1R.)
+
+
+
 进行前端调试。
 
 项目采用了前后端分离的设计，前端采用 Vue 框架，为了开发方便，使用 `node.js` 作为开发环境。
