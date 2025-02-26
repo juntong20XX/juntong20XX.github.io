@@ -13,7 +13,7 @@ However, the poster printing process has been challenging.
 
 Now I just submitted my poster for the third time and feel frustrated. So I write this blog at Sydney Jones Library.
 
-### First Attempt
+## First Attempt
 
 Never used university poster printers before. Quite a new experience.
 
@@ -33,7 +33,7 @@ IT staff told me to use PDF format.
 
 👛​​ - £4.21
 
-### Second Attempt
+## Second Attempt
 
 After leaving the IT service center, I found a self-service printing computer. First topped up my account, exported PPTX to PDF, uploaded to the computer, installed the printer, and printed!
 
@@ -49,7 +49,7 @@ By the way, seeing the second poster still had issues, I went back to IT. Arrive
 
 👛​​ - £4.21
 
-### Third Attempt (Current Status)
+## Third Attempt (Current Status)
 
 On the way to collect the poster, I met a classmate. I told him about my printing failures. He suggested directly using PowerPoint's print function.
 
