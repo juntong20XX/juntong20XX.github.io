@@ -35,11 +35,11 @@ tucaoUrl: https://www.example.com
 # 必填字段 title: '文本' url: '链接'
 # 可选字段 target: '_blank' 新页面打开 
 menu:
-  - title: 首页
+  - title: "Home 首页"
     url: /
-  - title: 归类
+  - title: "Categories 归类"
     url: /pages/categories.html
-  - title: 搜索
+  - title: "Search 搜索"
     url: /pages/search.html
   # - title: 友链
   #   url: /pages/links.html
