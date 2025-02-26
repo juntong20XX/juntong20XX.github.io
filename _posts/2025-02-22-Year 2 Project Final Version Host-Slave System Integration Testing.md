@@ -5,6 +5,8 @@ categories: [Year 2 Project]
 lang: en-gb
 ---
 
+Link to [Chinese Version](https://juntong20xx.github.io/posts/2025/02/22/year-2-project-%E4%B8%8A%E4%BD%8D%E6%9C%BA%E4%B8%8B%E4%BD%8D%E6%9C%BA%E6%9C%80%E7%BB%88%E7%89%88%E5%AF%B9%E6%8E%A5%E6%B5%8B%E8%AF%95.html).
+
 This article documents the integration testing between the new versions of host and slave systems.
 
 ## Test Preparation Phase

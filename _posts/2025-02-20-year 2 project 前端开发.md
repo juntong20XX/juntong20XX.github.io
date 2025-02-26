@@ -6,6 +6,8 @@ lang: en-us
 
 ---
 
+Link to [English Version](https://juntong20xx.github.io/posts/2025/02/22/Year-2-Project-Final-Frontend-Development.html).
+
 进行前端调试。
 
 项目采用了前后端分离的设计，前端采用 Vue 框架，为了开发方便，使用 `node.js` 作为开发环境。
@@ -56,6 +58,8 @@ await axios.put(`${this.backendUrl}/items`, {
 需要实时刷新：
 
 解决方案：登录后添加定时器函数函数获取后端列表并刷新。
+
+用户输入中表格刷新
 
 解决方案：判断用户是否聚焦或用户更改值，若是则避免刷新，注意模块离线时仍会移除这一行。
 

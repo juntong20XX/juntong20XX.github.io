@@ -5,7 +5,7 @@ categories: [Year 2 Project]
 lang: en-us
 ---
 
-
+Link to [Chinese Version](https://juntong20xx.github.io/posts/2025/02/20/year-2-project-%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91.html).
 
 The project adopts a frontend-backend separation design. The frontend uses Vue framework with Node.js as the development environment.
 

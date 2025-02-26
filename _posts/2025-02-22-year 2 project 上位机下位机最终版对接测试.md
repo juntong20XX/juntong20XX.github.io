@@ -5,6 +5,8 @@ categories: [Year 2 Project]
 lang: zh-cn
 ---
 
+Link to [English Version](https://juntong20xx.github.io/posts/2025/02/22/Year-2-Project-Final-Version-Host-Slave-System-Integration-Testing.html).
+
 这篇文章是上位机和下位机新版本对接测试记录。
 
 ## 测试准备阶段
