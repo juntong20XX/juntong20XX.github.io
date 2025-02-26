@@ -73,4 +73,4 @@ Yet my mood remains thoroughly foul, preoccupied with how to vent in this blog e
 
 The photo above was taken while leaving the library. Quite picturesque, isn't it?
 
-Life could be so beautiful. What a damned shame, really.
+Life could be so beautiful. Life can be quite beautiful, but it's really a pity.
