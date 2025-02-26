@@ -31,7 +31,7 @@ Why is only the top strip printed?
 
 IT staff told me to use PDF format.
 
-:purse: - £4.21
+👛​​ - £4.21
 
 ### Second Attempt
 
@@ -47,7 +47,7 @@ As you can see in the picture, the poster printed out the second time is exactly
 
 By the way, seeing the second poster still had issues, I went back to IT. Arrived at 17:07 only to be told they had closed.
 
-:purse: - £4.21
+👛​​ - £4.21
 
 ### Third Attempt (Current Status)
 
