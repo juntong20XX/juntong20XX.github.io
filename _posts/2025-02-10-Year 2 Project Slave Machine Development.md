@@ -74,8 +74,8 @@ title UART Packet
   
 - **Connection protocols**:  
   
-  1. `ping`: Test upper machine availability  
-  2. `wait`: Notify upper machine of standby status  
+  1. `ping`: Test host machine availability  
+  2. `wait`: Notify host machine of standby status  
   3. `command`: Instruction execution cycle  
 
 Protocol details available in the Year 2 Project Slave Computer Wiki.
@@ -89,15 +89,17 @@ With no display/terminal, the onboard LED indicates status:
 ## Issues & Solutions
 **Serial port occupation during programming**
 
-**Analysis**: Conflict between upper machine process and programming process
+**Analysis**: Conflict between host machine process and programming process
 
-**Solution**: Manually close upper machine process before programming  
+**Solution**: Manually close host machine process before programming  
 
 **Intermittent connectivity** 
 
 **Analysis**: CRC validation failures (observed via serial debugging)
 
-**Solution**: Track last 8 ping records - consider connected if majority succeed  
+**Solution**: Track last 8 ping records - consider connected if majority succeed 
+
+![CRC ERROR](CRC ERROR.png)
 
 ## Testing
 Connection test: Verify slave machine status changes when host machine starts/stops  
@@ -110,10 +112,10 @@ Servo control test: Validate host machine command execution
 
 Serial message capture: Oscilloscope verification of communication  
 
-![示波器照片](C:\Users\Zhu.J\Desktop\Projects\My Web\juntong20XX.github.io\_posts\示波器照片.jpg)
+![示波器照片](示波器照片.jpg)
 
 ![示波器截图](TEK0001.JPG)
 
-Synchronized testing with upper machine - see [Upper Machine Development Blog](https://juntong20xx.github.io/posts/2025/02/12/Year-2-Project-Host-Computer-Development.html) for details.
+Synchronized testing with host machine - see [Host Machine Development Blog](https://juntong20xx.github.io/posts/2025/02/12/Year-2-Project-Host-Computer-Development.html) for details.
 
-![舵机在上位机操控下旋转](舵机在上位机操控下旋转.gif)
+![舵机在上位机操控下旋转](测试舵机.gif)
