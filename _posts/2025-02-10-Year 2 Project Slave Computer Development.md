@@ -1,28 +1,28 @@
 ---
 layout: mypost
-title: "Year 2 Project: Slave Machine Development"
+title: "Year 2 Project: Slave Computer Development"
 categories: [Year 2 Project]
 lang: en-us
 ---
 
 Link to [Chinese Version](https://juntong20xx.github.io/posts/2025/02/10/year-2-project-%E4%B8%8B%E4%BD%8D%E6%9C%BA%E5%BC%80%E5%8F%91.html).
 
-In embedded development, Slave machines typically don't participate in decision-making and serve as actuators or sensors.
+In embedded development, Slave computers typically don't participate in decision-making and serve as actuators or sensors.
 
-In this project, each module functions as a slave machine executing instructions from the host machine.
+In this project, each module functions as a slave computer executing instructions from the host computer.
 
 **Development Setup**  
 
-- Slave machine: Arduino Uno 
-- Host machine: Raspberry Pi 5 
+- Slave computer: Arduino Uno 
+- Host computer: Raspberry Pi 5 
 
 ## Code Design
 
-**State Machine Design**
+**State computer Design**
 
-The slave machine doesn't make decisions and can be treated as a state machine:
+The slave computer doesn't make decisions and can be treated as a state computer:
 
-![slave computer status machine](slave computer status machine.jpg)
+![slave computer status computer](slave computer status machine.jpg)
 
 ```mermaid
 stateDiagram-v2
@@ -74,8 +74,8 @@ title UART Packet
   
 - **Connection protocols**:  
   
-  1. `ping`: Test host machine availability  
-  2. `wait`: Notify host machine of standby status  
+  1. `ping`: Test host computer availability  
+  2. `wait`: Notify host computer of standby status  
   3. `command`: Instruction execution cycle  
 
 Protocol details available in the Year 2 Project Slave Computer Wiki.
@@ -89,9 +89,9 @@ With no display/terminal, the onboard LED indicates status:
 ## Issues & Solutions
 **Serial port occupation during programming**
 
-**Analysis**: Conflict between host machine process and programming process
+**Analysis**: Conflict between host computer process and programming process
 
-**Solution**: Manually close host machine process before programming  
+**Solution**: Manually close host computer process before programming  
 
 **Intermittent connectivity** 
 
@@ -102,11 +102,11 @@ With no display/terminal, the onboard LED indicates status:
 ![CRC ERROR](CRC ERROR.png)
 
 ## Testing
-Connection test: Verify slave machine status changes when host machine starts/stops  
+Connection test: Verify slave computer status changes when host computer starts/stops  
 
 ![测试 ping](测试 ping.jpg)
 
-Servo control test: Validate host machine command execution  
+Servo control test: Validate host computer command execution  
 
 ![测试舵机](测试舵机.gif)
 
@@ -116,6 +116,6 @@ Serial message capture: Oscilloscope verification of communication
 
 ![示波器截图](TEK0001.JPG)
 
-Synchronized testing with host machine - see [Host Machine Development Blog](https://juntong20xx.github.io/posts/2025/02/12/Year-2-Project-Host-Computer-Development.html) for details.
+Synchronized testing with host computer - see [Host Computer Development Blog](https://juntong20xx.github.io/posts/2025/02/12/Year-2-Project-Host-Computer-Development.html) for details.
 
 ![舵机在上位机操控下旋转](测试舵机.gif)

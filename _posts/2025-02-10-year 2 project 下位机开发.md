@@ -5,7 +5,7 @@ categories: [Year 2 Project]
 lang: zh-cn
 ---
 
-Link to [English Version](https://juntong20xx.github.io/posts/2025/02/10/Year-2-Project-Slave-Machine-Development.html).
+Link to [English Version](https://juntong20xx.github.io/posts/2025/02/10/Year-2-Project-Slave-Computer-Development.html).
 
 在嵌入式开发中，下位机通常不参与决策，作为执行器或传感器使用。
 
