@@ -63,14 +63,14 @@ Waiting for results now.
 
 Update:
 
-Just returned from the library to dorm under sporadic drizzling rain. Had I been in better spirits, this walk could have been delightful - like stepping into the poetic line "一蓑烟雨任平生" (The translation of this poem is probably "A straw-cloaked man strolls through misty rain, embracing life's uncertainties"). 
+Just got back to my dorm from the library. It's drizzling outside—if I  were in a good mood, this walk would have been quite pleasant, almost  like stepping into the poetic atmosphere of *"一蓑烟雨任平生 (ChatGPT translated as 'one bamboo hat, one lifetime of carefree rain')"*
 
-Perhaps I would have reminisced about those late-night study sessions with good friends, our rain-or-shine journeys home; or that post-exam hotpot feast, wandering through the dormitory park in the early morning breeze; certainly the exhilarating bike ride back from Suzhou Culture and Arts Centre after a magnificent performance, cycling along Jinji Lake for two hours.
+Perhaps I would have reminisced about those late-night study sessions  with close friends, how we walked home together no matter the weather.  Or maybe I would have thought about the time we celebrated after an exam with hotpot and then strolled through the park in front of our dorm in  the early morning breeze. And certainly, I would have recalled leaving  the Suzhou Culture and Arts Centre after a brilliant performance, then  joyfully cycling for two hours along Jinji Lake back to the dorm.
 
-Yet my mood remains thoroughly foul, preoccupied with how to vent in this blog entry.
+But truth be told, I'm in a lousy mood. On the way back, all I could think about was how to complain about it in my blog.
 
 ![](Walk Out.jpg)
 
-The photo above was taken while leaving the library. Quite picturesque, isn't it?
+The photo above was taken as I walked out of the library. Rather beautiful, isn’t it?
 
-Life could be so beautiful. Life can be quite beautiful, but it's really a pity.
+Life *can* be wonderful, what a shame.
