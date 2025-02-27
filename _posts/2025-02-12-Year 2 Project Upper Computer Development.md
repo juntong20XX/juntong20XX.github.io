@@ -5,6 +5,8 @@ categories: [Year 2 Project]
 lang: en-us
 ---
 
+Link to [Chinese Version](https://juntong20xx.github.io/posts/2025/02/12/year-2-project-%E4%B8%8A%E4%BD%8D%E6%9C%BA%E5%BC%80%E5%8F%91.html).
+
 ![上位机项目 IDLE 截图](上位机项目 IDLE 截图.png)
 
 In embedded system development, the upper computer refers to the device that interacts with the lower computer, typically acting as the controller.
@@ -37,17 +39,17 @@ stateDiagram
     HandleFailure --> WaitForRequest : Requeue instruction
 
     state HandlePing {
-        Send connection response
+        Send_connection_response
     }
 
     state HandleWaitCommand {
-        Check command queue
-        Send next instruction
+        Check_command_queue
+        Send_next_instruction
     }
 
     state HandleFailure {
-        Log error
-        Rollback command to queue
+        Log_error
+        Rollback_command_to_queue
     }
 ```
 

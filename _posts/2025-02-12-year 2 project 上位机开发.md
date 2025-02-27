@@ -5,6 +5,8 @@ categories: [Year 2 Project]
 lang: en-us
 ---
 
+Link to [English Version](https://juntong20xx.github.io/posts/2025/02/12/Year-2-Project-Upper-Computer-Development.html).
+
 ![上位机项目 IDLE 截图](上位机项目 IDLE 截图.png)
 
 在嵌入式开发中，上位机指与下位机交互的设备，通常是下位机的控制者。
