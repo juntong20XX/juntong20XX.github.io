@@ -118,4 +118,4 @@ Serial message capture: Oscilloscope verification of communication
 
 Synchronized testing with host computer - see [Host Computer Development Blog](https://juntong20xx.github.io/posts/2025/02/12/Year-2-Project-Host-Computer-Development.html) for details.
 
-![舵机在上位机操控下旋转](舵机在上位机操控下旋转.gif)
+![舵机在上位机操控下旋转](https://juntong20xx.github.io/posts/2025/02/12/%E8%88%B5%E6%9C%BA%E5%9C%A8%E4%B8%8A%E4%BD%8D%E6%9C%BA%E6%93%8D%E6%8E%A7%E4%B8%8B%E6%97%8B%E8%BD%AC.gif)
