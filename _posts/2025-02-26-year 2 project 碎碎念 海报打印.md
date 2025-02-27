@@ -5,8 +5,6 @@ categories: [Year 2 Project]
 lang: en-us
 ---
 
----
-
 Link to [English Version](https://juntong20xx.github.io/posts/2025/02/26/Year-2-Project-Ramblings-Poster-Printing.html).
 
 在本周五，也就是本文编写的两天后，我们将进行小组作业的展示，这个展示必须要有海报。
