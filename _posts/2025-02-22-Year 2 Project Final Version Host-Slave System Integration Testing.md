@@ -15,23 +15,23 @@ This article documents the integration testing between the new versions of host 
 
 **Host Machine**
 
-- Reinstall PlatformIO environment on Raspberry Pi 5
-- Verify user read/write permissions for window operations before execution
+- Reinstall PlatformIO environment on Raspberry Pi 5.
+- Verify user read/write permissions for window operations before execution.
 
 **Slave Devices**  
 
-- Two assembled robotic arms connected via USB to host machine
+- Two assembled robotic arms connected via USB to host machine.
 
 ### Step 2: Test Code Restructuring
 **Core modifications**:  
-- Added dynamic support for multiple Arduino slave devices  
-- New device status monitoring thread on server side  
-- JSON encoding + Unix Socket transmission scheme implemented  
+- Added dynamic support for multiple Arduino slave devices.  
+- New device status monitoring thread on server side.  
+- JSON encoding + Unix Socket transmission scheme implemented.  
 
 **Key test objectives**:  
-- Server thread management mechanism verification  
-- Command encoding/decoding reliability testing  
-- Full-link communication stability verification (local loopback test)
+- Server thread management mechanism verification.  
+- Command encoding/decoding reliability testing.  
+- Full-link communication stability verification (local loopback test).
 
 ### Step 3: Development Environment Synchronisation Issues
 **Observed issues**:  
@@ -60,17 +60,20 @@ stateDiagram-v2
 
 ## Critical Issue Resolution
 **Path detection anomaly**  
-- Issue: Dynamic changes in `/dev/serial/by-id` path causing service crashes  
-- Solution: Implemented path existence checks  
+- Issue: Dynamic changes in `/dev/serial/by-id` path causing service crashes. 
+- Analysis: When there is no serial port device connection, the path will be removed.
+- Solution: Implemented path existence checks.
+
+![](serial_byid-notfound.png)
 
 **Thread lifecycle management**  
-- Issue: Communication threads not terminating with server shutdown  
-- Solution: Optimised thread loop termination condition checks  
+- Issue: Communication threads not terminating with server shutdown.
+- Solution: Optimised thread loop termination condition checks.
 
 ## Test Achievements
-- Completed full-link communication verification  
-- Implemented dynamic multi-device management  
-- Released stable version v0.1.0  
+- Completed full-link communication verification.
+- Implemented dynamic multi-device management.  
+- Released stable version v0.1.0 .
 
 Test environment photo documentation:
 
