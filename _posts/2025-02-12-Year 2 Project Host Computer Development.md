@@ -1,6 +1,6 @@
 ---
 layout: mypost
-title: "Year 2 Project: Upper Computer Development"
+title: "Year 2 Project: Host Computer Development"
 categories: [Year 2 Project]
 lang: en-us
 ---
@@ -9,15 +9,15 @@ Link to [Chinese Version](https://juntong20xx.github.io/posts/2025/02/12/year-2-
 
 ![上位机项目 IDLE 截图](上位机项目 IDLE 截图.png)
 
-In embedded system development, the upper computer refers to the device that interacts with the lower computer, typically acting as the controller.
+In embedded system development, the host computer refers to the device that interacts with the slave computer, typically acting as the controller.
 
-In this project, the upper computer uses a Raspberry Pi 5, and the lower computer is an Arduino Uno, connected via USB.
+In this project, the host computer uses a Raspberry Pi 5, and the salve computer is an Arduino Uno, connected via USB.
 
 ![connected via USB](上位机与下位机通过 USB 连接.jpg)
 
 ## Code Design
 
-The workflow of the upper computer can be simplified as: responding to lower computer requests.
+The workflow of the host computer can be simplified as: responding to salve computer requests.
 
 - Reply with connection confirmation when receiving ping command
 - Send instructions from the command queue when receiving WaitCommand 
@@ -53,14 +53,14 @@ stateDiagram
     }
 ```
 
-Additionally, to package the upper computer as an SDK, we configured pyproject.toml for easy distribution as a Python module.
+Additionally, to package the host computer as an SDK, we configured pyproject.toml for easy distribution as a Python module.
 
 ## Issues & Solutions
 
 ### Parameter Parsing Exception
-**Analysis**: Lower computer packets only use first 8 bytes as valid data, causing parsing issues in Python's strong typing system which requires handling all 16 bytes.  
+**Analysis**: salve computer packets only use first 8 bytes as valid data, causing parsing issues in Python's strong typing system which requires handling all 16 bytes.  
 
-**Solution**: Modify lower computer to write zeros in unused bytes.
+**Solution**: Modify salve computer to write zeros in unused bytes.
 
 ### Serial Port Not Found  
 **Analysis**: Development environment used Linux (Raspberry Pi OS) via VS Code Remote, while debugging used Windows (laptop).  
@@ -76,7 +76,7 @@ Created test programs in `/test` directory that:
 4. Run as separate thread
 5. Enter main loop accepting servo rotation degree inputs
 
-Upper and lower computer testing is synchronized. Refer to the lower computer development blog for more details.
+host and salve computer testing is synchronized. Refer to the salve computer development blog for more details.
 
 Below is a screenshot from testing video:
 

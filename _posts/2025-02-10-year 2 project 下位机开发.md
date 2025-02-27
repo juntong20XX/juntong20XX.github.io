@@ -17,7 +17,7 @@ lang: zh-cn
 
 下位机不参与决策，可以将其视为状态机。
 
-![下位机状态机](下位机状态机.svg)
+![下位机状态机](下位机状态机.jpg)
 
 ```mermaid
 stateDiagram-v2
