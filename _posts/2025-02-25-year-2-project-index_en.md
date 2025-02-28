@@ -18,6 +18,8 @@ Our project primarily consists of four core components:
 3. **Backend Service**: Built with FastAPI, providing device management and authentication.
 4. **Frontend Interface**: Developed using Vue.js, offering an intuitive user interaction experience.
 
+Video Link: [project video](https://theuniversityofliverpool-my.sharepoint.com/:v:/g/personal/sgjzhu25_liverpool_ac_uk/EVTm5ax5ei1Im1mfhsLeLYgB1dxshit3WMcHoUkk1NLD7Q?e=q9Nbhb) (login request).
+
 ## Technical Highlights
 
 ### Flexible Communication Protocol
@@ -26,52 +28,17 @@ We designed a unique communication protocol that supports:
 - CRC-based data validation
 - Dynamic addition of personal devices
 
+![](https://juntong20xx.github.io/posts/2025/02/10/%E7%A4%BA%E6%B3%A2%E5%99%A8%E7%85%A7%E7%89%87.jpg)
+
 ### Security Authentication
 Implemented Time-based One-Time Password (TOTP) algorithm to enhance system security. Users must input both username and dynamic password.
+
+![](https://juntong20xx.github.io/posts/2025/02/20/Login%20Page.png)
 
 ### Open Architecture
 - Fully open-source SDK
 - Support for development in Python and C++
 - Flexible modular interface
-
-## Key Challenges and Solutions
-
-During development, we overcame several technical challenges:
-- Serial communication stability
-- Dynamic multi-device management
-- Cross-platform compatibility
-
-Through meticulous testing and iteration, we ultimately created a stable and efficient system.
-
-## Unique Project Features
-
-What sets our project apart:
-- Web-based remote control interface
-- Modular robotic interface platform
-- Low-cost implementation
-- Open-source SDK allowing custom scripting
-- Dual-channel network for immediate response
-
-## Technical Stack
-
-**Hardware**:
-- Slave Computer: Arduino Uno
-- Host Computer: Raspberry Pi 5
-
-**Software**:
-- Frontend: Vue.js
-- Backend: FastAPI (Python)
-- Communication: Custom UART protocol
-- Authentication: TOTP
-
-## Future Outlook
-
-We believe this platform will bring innovation to the IoT and robotics fields. Users can:
-- Quickly build their own robotic systems
-- Flexibly control various hardware devices
-- Implement personalized smart home solutions at low cost
-
-The project code is now open-sourced on GitHub, and we welcome developers interested in this field to discuss and contribute!
 
 ## Project Achievements
 
@@ -86,3 +53,16 @@ Juntong Zhu (Team Leader): Design, Software, Hardware
 Haozhe Deng: Hardware
 
 Al-Mahmoud Abdulrahman
+
+## Other Links:
+
+**Technology Blogs**
+
+- [Slave Computer Development](https://juntong20xx.github.io/posts/2025/02/10/Year-2-Project-Slave-Computer-Development.html)
+- [Host Computer Development](https://juntong20xx.github.io/posts/2025/02/12/Year-2-Project-Host-Computer-Development.html)
+- [Backend Development](https://juntong20xx.github.io/posts/2025/02/20/Year-2-Project-Backend-Development.html)
+- [Frontend Development](https://juntong20xx.github.io/posts/2025/02/20/Year-2-Project-Frontend-Development.html)
+- [Host-Slave System Integration Testing](https://juntong20xx.github.io/posts/2025/02/22/Year-2-Project-Final-Version-Host-Slave-System-Integration-Testing.html)
+- 
+
+**Ramblings**
