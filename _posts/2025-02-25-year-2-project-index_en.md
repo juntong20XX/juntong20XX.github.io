@@ -7,7 +7,7 @@ lang: en-gb
 
 ![](Poster - Release.png)
 
-In our second-year project, our team has been dedicated to developing an innovative, flexible modular robotic interface platform. This project aims to provide a smarter and more open control solution for Internet of Things (IoT) devices.
+In our year 2 project, our team has been dedicated to developing an innovative, flexible modular robotic interface platform. This project aims to provide a smarter and more open control solution for Internet of Things (IoT) devices.
 
 ## Project Overview
 
@@ -23,8 +23,7 @@ Video Link: [project video](https://theuniversityofliverpool-my.sharepoint.com/:
 ## Technical Highlights
 
 ### Flexible Communication Protocol
-We designed a unique communication protocol that supports:
-- Dual-channel network for rapid response
+We designed a flexible communication protocol that supports:
 - CRC-based data validation
 - Dynamic addition of personal devices
 
