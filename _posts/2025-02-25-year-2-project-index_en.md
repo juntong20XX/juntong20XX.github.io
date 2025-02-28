@@ -1,13 +1,11 @@
 ---
 layout: mypost
-title: "year 2 project index_en"
+title: "Year 2 Project Review: Modular Robotic Interface Platform"
 categories: [Year 2 Project]
 lang: en-gb
 ---
 
 ![](Poster - Release.png)
-
-# Year 2 Project Review: Modular Robotic Interface Platform Development
 
 In our second-year project, our team has been dedicated to developing an innovative, flexible modular robotic interface platform. This project aims to provide a smarter and more open control solution for Internet of Things (IoT) devices.
 
@@ -79,4 +77,12 @@ The project code is now open-sourced on GitHub, and we welcome developers intere
 
 - Completed full-link communication verification
 - Implemented dynamic multi-device management
-- Released stable version v0.1.0
+- Released stable version
+
+## Members:
+
+Juntong Zhu (Team Leader): Design, Software, Hardware
+
+Haozhe Deng: Hardware
+
+Al-Mahmoud Abdulrahman

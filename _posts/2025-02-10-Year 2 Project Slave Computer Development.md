@@ -86,9 +86,9 @@ With no display/terminal, the onboard LED indicates status:
 - Blinking: No connection  
 - Steady: Connected  
 
-The following figure is a screenshot of the protocol design during development:
+The following figure is a screenshot of the protocol design during development (translated by Google):
 
-![协议设计笔记截图](协议设计笔记截图.png)
+![Screenshot of Protocol Design Notes](Screenshot of Protocol Design Notes.png)
 
 ## Issues & Solutions
 **Serial port occupation during programming**
