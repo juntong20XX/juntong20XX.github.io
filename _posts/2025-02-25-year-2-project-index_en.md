@@ -62,6 +62,6 @@ Al-Mahmoud Abdulrahman
 - [Backend Development](https://juntong20xx.github.io/posts/2025/02/20/Year-2-Project-Backend-Development.html)
 - [Frontend Development](https://juntong20xx.github.io/posts/2025/02/20/Year-2-Project-Frontend-Development.html)
 - [Host-Slave System Integration Testing](https://juntong20xx.github.io/posts/2025/02/22/Year-2-Project-Final-Version-Host-Slave-System-Integration-Testing.html)
-- 
+- [Hao's Work Diary](https://haoyuanpurple.blogspot.com/2025/02/font-face-font-familytimes-new-roman.html)
 
 **Ramblings**
